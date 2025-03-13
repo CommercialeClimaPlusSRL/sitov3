@@ -2,7 +2,7 @@ class CookieConsent {
     constructor() {
         this.cookieName = 'cookie_consent';
         this.analyticsCookieName = 'analytics_consent';
-        this.cookieDuration = 365; // days
+        this.cookieDuration = 1; // days
         this.banner = null;
         
         this.init();
