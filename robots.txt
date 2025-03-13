@@ -1,0 +1,34 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /privacy.html
+Allow: /sitemap.xml
+
+# Protect sensitive files and directories
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.txt$
+Disallow: /*.yml$
+Disallow: /*.yaml$
+Disallow: /*.config
+Disallow: /package*.json
+
+# Allow static assets
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.svg$
+Allow: /*.css$
+Allow: /*.ico$
+Allow: /fonts/
+Allow: /images/
+
+# Specify crawl delay
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://www.commercialeclimaplus.it/sitemap.xml
